@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Harsha Jain's portfolio: social media strategy, content calendars, branded creatives and LinkedIn ghostwriting.">
+  <meta name="theme-color" content="#760b16">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Harsha Jain | Portfolio">
+  <meta property="og:description" content="Social media marketing, content strategy and selected work by Harsha Jain.">
+  <title>Harsha Jain | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.replace('no-js','js');</script>
+  <style>
+    :root {
+      --paper:#ece8de;
+      --paper-bright:#f7f4ed;
+      --ink:#1a1714;
+      --wine:#780914;
+      --wine-dark:#4e050c;
+      --blush:#df9a92;
+      --mustard:#d99a1c;
+      --line:rgba(26,23,20,.22);
+      --line-wine:rgba(120,9,20,.28);
+      --max:1240px;
+      --sans:'DM Sans',Arial,sans-serif;
+      --display:'Outfit',Arial,sans-serif;
+      --serif:'Fraunces',Georgia,serif;
+      --mono:'DM Mono','Courier New',monospace;
+      --shadow:0 22px 45px rgba(66,13,18,.16);
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; overflow-x:hidden; color:var(--ink); background:var(--paper); font:400 16px/1.55 var(--sans); }
+    body::before { content:''; position:fixed; z-index:-1; inset:0; pointer-events:none; opacity:.56; background-image:radial-gradient(rgba(54,42,31,.15) .55px,transparent .7px),radial-gradient(rgba(54,42,31,.08) .5px,transparent .65px); background-position:0 0,5px 7px; background-size:8px 8px,11px 11px; mix-blend-mode:multiply; }
+    a { color:inherit; text-decoration:none; }
+    button { color:inherit; font:inherit; }
+    img { display:block; max-width:100%; }
+    h1,h2,h3,p { margin:0; }
+    ul { padding:0; margin:0; list-style:none; }
+    :focus-visible { outline:3px solid var(--mustard); outline-offset:4px; }
+    .skip { position:fixed; z-index:100; top:-60px; left:16px; padding:10px 15px; color:var(--paper-bright); background:var(--wine); border-radius:5px; font-weight:700; }
+    .skip:focus { top:16px; }
+    .shell { width:min(calc(100% - 44px),var(--max)); margin:auto; }
+    .mono { font:500 .69rem/1.35 var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+    .eyebrow { display:flex; align-items:center; gap:8px; color:var(--wine); font:500 .69rem/1.3 var(--mono); letter-spacing:.1em; text-transform:uppercase; }
+    .eyebrow::before { content:''; width:7px; height:7px; border-radius:50%; background:currentColor; }
+    .section { padding:clamp(70px,9vw,130px) 0; }
+    .section-heading { display:grid; grid-template-columns:.66fr 1.34fr; gap:28px; align-items:end; padding-bottom:28px; border-bottom:1px solid var(--line); }
+    .section-heading h2 { max-width:12ch; font:800 clamp(2.6rem,6vw,6rem)/.9 var(--display); letter-spacing:-.075em; text-transform:uppercase; }
+    .section-heading p { max-width:41ch; color:#5c5047; }
+
+    .topbar { position:sticky; top:0; z-index:20; border-bottom:1px solid var(--line-wine); background:rgba(236,232,222,.9); backdrop-filter:blur(14px); }
+    .nav { min-height:65px; display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:18px; }
+    .nav__brand { color:var(--wine); font:800 1.04rem/1 var(--display); letter-spacing:-.06em; text-transform:uppercase; }
+    .nav__links { display:flex; align-items:center; gap:clamp(14px,2.4vw,33px); }
+    .nav__links a { padding:6px 0; border-bottom:1px solid transparent; font:500 .66rem/1 var(--mono); letter-spacing:.05em; text-transform:uppercase; }
+    .nav__links a:hover, .nav__links a[aria-current='true'] { border-color:var(--wine); color:var(--wine); }
+    .nav__resume { justify-self:end; display:flex; align-items:center; gap:7px; color:var(--wine); font:500 .66rem var(--mono); letter-spacing:.05em; text-transform:uppercase; }
+    .nav__resume::after { content:'>'; font-size:1rem; line-height:0; }
+    .nav__toggle { display:none; justify-self:end; padding:8px 0 8px 12px; border:0; background:transparent; color:var(--wine); font:500 .7rem var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+
+    .hero { position:relative; min-height:min(840px,calc(100vh - 65px)); overflow:hidden; color:var(--paper-bright); background:var(--wine); }
+    .hero::before { content:''; position:absolute; inset:0; background:radial-gradient(circle at 84% 24%,rgba(223,154,146,.3),transparent 22%),linear-gradient(118deg,transparent 0 55%,rgba(78,5,12,.52) 55% 100%); }
+    .hero .shell { position:relative; display:grid; grid-template-columns:1.2fr .8fr; min-height:min(840px,calc(100vh - 65px)); padding-top:clamp(50px,7vw,100px); padding-bottom:44px; }
+    .hero__kicker { color:rgba(247,244,237,.75); font:500 .68rem var(--mono); letter-spacing:.1em; text-transform:uppercase; }
+    .hero__title { position:relative; z-index:2; max-width:8ch; margin-top:24px; font:900 clamp(4.8rem,10.9vw,10.5rem)/.77 var(--display); letter-spacing:-.11em; text-transform:uppercase; }
+    .hero__title span { display:block; color:var(--blush); }
+    .hero__subtitle { position:relative; z-index:2; max-width:26ch; margin:31px 0 0 4px; font:600 clamp(1.15rem,2.2vw,2rem)/1.1 var(--serif); letter-spacing:-.04em; }
+    .hero__copy { max-width:45ch; margin:15px 0 0 4px; color:rgba(247,244,237,.73); font-size:.94rem; }
+    .hero__links { display:flex; flex-wrap:wrap; gap:12px; margin:27px 0 0 4px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:43px; padding:10px 15px; border:1px solid transparent; border-radius:3px; font:500 .68rem var(--mono); letter-spacing:.06em; text-transform:uppercase; transition:transform .2s ease,background .2s ease,color .2s ease; }
+    .button:hover { transform:translateY(-3px); }
+    .button--paper { color:var(--wine); background:var(--paper-bright); }
+    .button--outline { border-color:rgba(247,244,237,.52); color:var(--paper-bright); }
+    .hero__credit { position:absolute; bottom:32px; left:0; color:rgba(247,244,237,.56); font:400 .62rem var(--mono); letter-spacing:.06em; text-transform:uppercase; }
+    .hero__art { position:relative; min-height:590px; }
+    .hero__orb { position:absolute; top:7%; right:-16%; width:min(37vw,520px); aspect-ratio:1; border:1px solid rgba(247,244,237,.44); border-radius:50%; }
+    .hero__orb::before,.hero__orb::after { content:''; position:absolute; border-radius:50%; }
+    .hero__orb::before { inset:9%; border:1px solid rgba(247,244,237,.22); }
+    .hero__orb::after { inset:25%; background:var(--mustard); box-shadow:0 0 0 20px rgba(217,154,28,.1); }
+    .poster { position:absolute; overflow:hidden; border:7px solid var(--paper-bright); box-shadow:var(--shadow); background:#d1cbc0; }
+    .poster img { width:100%; height:100%; object-fit:cover; object-position:center top; }
+    .poster--one { z-index:3; top:4%; left:4%; width:clamp(150px,18vw,225px); aspect-ratio:590/1280; transform:rotate(-9deg); }
+    .poster--two { z-index:2; top:25%; left:38%; width:clamp(155px,18.6vw,235px); aspect-ratio:590/1280; transform:rotate(8deg); }
+    .poster--three { z-index:1; right:-3%; bottom:3%; width:clamp(145px,17vw,215px); aspect-ratio:590/1280; transform:rotate(-2deg); }
+    .hero__stamp { position:absolute; z-index:4; right:11%; top:12%; display:grid; place-items:center; width:108px; aspect-ratio:1; border-radius:50%; color:var(--wine); background:var(--mustard); font:700 .65rem/1.3 var(--mono); letter-spacing:.08em; text-align:center; text-transform:uppercase; transform:rotate(15deg); }
+    .hero__stamp::before { content:''; position:absolute; inset:6px; border:1px dashed var(--wine); border-radius:50%; }
+
+    .ticker { overflow:hidden; color:var(--paper-bright); background:var(--wine-dark); border-top:1px solid rgba(247,244,237,.28); border-bottom:1px solid rgba(247,244,237,.28); }
+    .ticker__track { display:flex; width:max-content; animation:ticker 36s linear infinite; }
+    .ticker__group { display:flex; align-items:center; gap:27px; padding:14px 13px; font:500 .68rem var(--mono); letter-spacing:.09em; text-transform:uppercase; white-space:nowrap; }
+    .ticker__group b { color:var(--mustard); font-weight:500; }
+    @keyframes ticker { to { transform:translateX(-50%); } }
+
+    .profile { background:var(--paper-bright); }
+    .profile-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:clamp(38px,8vw,110px); align-items:start; }
+    .profile__lead { max-width:25ch; color:var(--wine); font:600 clamp(1.85rem,3.7vw,3.5rem)/1.08 var(--serif); letter-spacing:-.05em; }
+    .profile__body { max-width:58ch; margin-top:23px; color:#51453d; font-size:1.04rem; }
+    .profile__body strong { color:var(--wine); }
+    .profile__fact-list { display:grid; gap:0; border-top:1px solid var(--line); }
+    .fact { display:grid; grid-template-columns:88px 1fr; gap:18px; padding:19px 0; border-bottom:1px solid var(--line); }
+    .fact__number { color:var(--wine); font:900 2.1rem/.9 var(--display); letter-spacing:-.08em; }
+    .fact__text { color:#64574e; font-size:.91rem; }
+    .fact__text b { display:block; color:var(--ink); font-size:.93rem; }
+
+    .work { background:var(--paper); }
+    .work__intro { display:grid; grid-template-columns:.78fr 1.22fr; gap:32px; align-items:start; margin-top:54px; }
+    .project-label { color:var(--wine); font:500 .67rem var(--mono); letter-spacing:.1em; text-transform:uppercase; }
+    .work__intro h3 { margin-top:10px; font:800 clamp(2.3rem,4.7vw,5.3rem)/.86 var(--display); letter-spacing:-.085em; text-transform:uppercase; }
+    .work__intro h3 span { color:var(--wine); }
+    .work__intro-text { max-width:58ch; color:#5b4e45; font-size:1.04rem; }
+    .project-meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:22px; }
+    .project-meta span { padding:6px 9px; border:1px solid var(--line-wine); color:var(--wine); border-radius:20px; font:500 .61rem var(--mono); letter-spacing:.04em; text-transform:uppercase; }
+    .metric-row { display:grid; grid-template-columns:repeat(3,1fr); margin-top:36px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .metric { padding:17px 18px 18px 0; border-right:1px solid var(--line); }
+    .metric + .metric { padding-left:18px; }
+    .metric:last-child { border-right:0; }
+    .metric b { display:block; color:var(--wine); font:900 clamp(1.8rem,3vw,2.7rem)/1 var(--display); letter-spacing:-.08em; }
+    .metric span { display:block; margin-top:6px; color:#61544b; font-size:.72rem; }
+    .gallery { display:grid; grid-template-columns:repeat(12,1fr); gap:clamp(13px,2vw,28px); align-items:start; margin-top:54px; }
+    .piece { position:relative; margin:0; }
+    .piece__frame { position:relative; overflow:hidden; border:1px solid rgba(26,23,20,.19); background:#d7d2c9; box-shadow:0 13px 26px rgba(58,45,32,.13); }
+    .piece__frame img { width:100%; aspect-ratio:590/1280; object-fit:cover; object-position:center top; transition:transform .55s cubic-bezier(.2,.7,.2,1); }
+    .piece:hover .piece__frame img { transform:scale(1.045); }
+    .piece figcaption { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:8px; color:#716258; font:500 .6rem var(--mono); letter-spacing:.05em; text-transform:uppercase; }
+    .piece figcaption::after { content:'>'; color:var(--wine); font-size:.95rem; }
+    .piece:nth-child(1) { grid-column:1 / span 3; margin-top:35px; }
+    .piece:nth-child(2) { grid-column:4 / span 3; }
+    .piece:nth-child(3) { grid-column:7 / span 3; margin-top:84px; }
+    .piece:nth-child(4) { grid-column:10 / span 3; margin-top:20px; }
+    .piece:nth-child(5) { grid-column:2 / span 3; margin-top:28px; }
+    .piece:nth-child(6) { grid-column:5 / span 3; margin-top:104px; }
+    .piece:nth-child(7) { grid-column:8 / span 3; margin-top:22px; }
+    .piece:nth-child(8) { grid-column:11 / span 2; margin-top:105px; }
+    .gallery-note { max-width:67ch; margin:70px auto 0; padding-left:15px; border-left:2px solid var(--wine); color:#66584f; font:500 .73rem/1.55 var(--mono); }
+
+    .plywood { position:relative; overflow:hidden; color:var(--paper-bright); background:var(--wine); }
+    .plywood::after { content:''; position:absolute; z-index:0; right:-12vw; bottom:-18vw; width:58vw; aspect-ratio:1; border:1px solid rgba(247,244,237,.25); border-radius:50%; }
+    .plywood .shell { position:relative; z-index:1; display:grid; grid-template-columns:.9fr 1.1fr; gap:clamp(35px,7vw,100px); align-items:center; }
+    .plywood__image { position:relative; max-width:480px; }
+    .plywood__image::before { content:'01'; position:absolute; z-index:-1; top:-76px; left:-45px; color:rgba(247,244,237,.15); font:900 14rem/.7 var(--display); letter-spacing:-.13em; }
+    .plywood__image img { aspect-ratio:1; width:100%; object-fit:cover; box-shadow:17px 17px 0 rgba(217,154,28,.92); }
+    .plywood .eyebrow { color:var(--mustard); }
+    .plywood h2 { max-width:9ch; margin-top:14px; font:900 clamp(3rem,6vw,6.3rem)/.83 var(--display); letter-spacing:-.09em; text-transform:uppercase; }
+    .plywood__copy { max-width:52ch; margin-top:22px; color:rgba(247,244,237,.78); }
+    .plywood__tools { display:flex; flex-wrap:wrap; gap:9px; margin-top:24px; }
+    .plywood__tools span { padding:6px 9px; border:1px solid rgba(247,244,237,.35); font:500 .62rem var(--mono); letter-spacing:.04em; text-transform:uppercase; }
+
+    .experience { background:var(--paper-bright); }
+    .experience-list { margin-top:45px; border-top:1px solid var(--line); }
+    .experience-item { display:grid; grid-template-columns:160px 1fr .75fr; gap:27px; padding:30px 0; border-bottom:1px solid var(--line); }
+    .experience-date { color:var(--wine); font:500 .66rem/1.5 var(--mono); letter-spacing:.05em; text-transform:uppercase; }
+    .experience-item h3 { font:800 clamp(1.3rem,2vw,2rem)/1 var(--display); letter-spacing:-.06em; }
+    .experience-company { margin-top:5px; color:#65574e; font-size:.92rem; }
+    .experience-details { color:#5c5047; font-size:.86rem; }
+    .experience-details li { position:relative; padding-left:14px; }
+    .experience-details li + li { margin-top:4px; }
+    .experience-details li::before { content:'+'; position:absolute; left:0; color:var(--wine); font-weight:700; }
+
+    .toolbox { color:var(--paper-bright); background:var(--wine-dark); }
+    .toolbox .section-heading { border-color:rgba(247,244,237,.27); }
+    .toolbox .eyebrow { color:var(--mustard); }
+    .toolbox .section-heading p { color:rgba(247,244,237,.7); }
+    .skills { display:grid; grid-template-columns:1fr 1fr; gap:50px; margin-top:43px; }
+    .skills-label { color:var(--mustard); font:500 .68rem var(--mono); letter-spacing:.09em; text-transform:uppercase; }
+    .skill-list { display:flex; flex-wrap:wrap; gap:9px; margin-top:15px; }
+    .skill-list li { padding:8px 11px; border:1px solid rgba(247,244,237,.3); color:rgba(247,244,237,.88); font:500 .67rem var(--mono); letter-spacing:.02em; }
+    .skill-list--tools li { color:var(--wine-dark); background:var(--paper-bright); border-color:var(--paper-bright); }
+
+    .contact { position:relative; overflow:hidden; color:var(--paper-bright); background:var(--wine); }
+    .contact::before { content:'HJ'; position:absolute; right:-.06em; bottom:-.35em; color:rgba(247,244,237,.08); font:900 min(43vw,560px)/1 var(--display); letter-spacing:-.16em; }
+    .contact .shell { position:relative; z-index:1; display:grid; grid-template-columns:1.15fr .85fr; gap:48px; align-items:end; }
+    .contact .eyebrow { color:var(--mustard); }
+    .contact h2 { max-width:10ch; margin-top:16px; font:900 clamp(3.4rem,7vw,7.5rem)/.8 var(--display); letter-spacing:-.1em; text-transform:uppercase; }
+    .contact__copy { max-width:46ch; margin-top:22px; color:rgba(247,244,237,.76); }
+    .contact__actions { display:flex; flex-wrap:wrap; gap:11px; margin-top:27px; }
+    .contact-card { padding:25px; border:1px solid rgba(247,244,237,.38); background:rgba(78,5,12,.35); }
+    .contact-card a,.contact-card p { display:block; color:rgba(247,244,237,.9); font:500 .78rem/1.5 var(--mono); overflow-wrap:anywhere; }
+    .contact-card a:hover { color:var(--mustard); }
+    .contact-card p + a,.contact-card a + a { margin-top:15px; }
+    .contact-card .mono { margin-bottom:14px; color:var(--mustard); }
+    footer { padding:19px 0; color:var(--wine); background:var(--paper); border-top:1px solid var(--line-wine); }
+    .footer { display:flex; flex-wrap:wrap; justify-content:space-between; gap:9px; font:500 .62rem var(--mono); letter-spacing:.04em; text-transform:uppercase; }
+
+    .js .reveal { opacity:0; transform:translateY(20px); transition:opacity .7s ease,transform .7s ease; }
+    .js .reveal.visible { opacity:1; transform:none; }
+    @media (max-width:830px) {
+      .nav { grid-template-columns:1fr auto; }
+      .nav__toggle { display:block; }
+      .nav__resume { display:none; }
+      .nav__links { position:absolute; top:65px; right:0; left:0; display:grid; gap:0; max-height:0; overflow:hidden; border-bottom:0 solid var(--line-wine); background:var(--paper-bright); transition:max-height .25s ease,border .25s ease; }
+      .nav__links a { padding:15px 22px; border-top:1px solid var(--line); }
+      .nav__links.open { max-height:380px; border-bottom-width:1px; }
+      .hero .shell,.profile-grid,.plywood .shell,.contact .shell { grid-template-columns:1fr; }
+      .hero .shell { min-height:auto; padding-bottom:105px; }
+      .hero__art { min-height:470px; margin-top:30px; }
+      .hero__credit { left:0; bottom:26px; }
+      .section-heading,.work__intro { grid-template-columns:1fr; }
+      .section-heading h2 { max-width:13ch; }
+      .gallery { gap:17px; }
+      .piece:nth-child(1) { grid-column:1 / span 4; margin-top:30px; }
+      .piece:nth-child(2) { grid-column:5 / span 4; }
+      .piece:nth-child(3) { grid-column:9 / span 4; margin-top:50px; }
+      .piece:nth-child(4) { grid-column:2 / span 4; margin-top:0; }
+      .piece:nth-child(5) { grid-column:6 / span 4; margin-top:65px; }
+      .piece:nth-child(6) { grid-column:10 / span 3; margin-top:0; }
+      .piece:nth-child(7) { grid-column:3 / span 4; margin-top:30px; }
+      .piece:nth-child(8) { grid-column:8 / span 3; margin-top:48px; }
+      .plywood__image { max-width:400px; }
+      .skills { grid-template-columns:1fr; gap:30px; }
+    }
+    @media (max-width:560px) {
+      .shell { width:min(100% - 30px,var(--max)); }
+      .hero .shell { padding-top:47px; }
+      .hero__title { font-size:clamp(4.1rem,20vw,6.2rem); }
+      .hero__art { min-height:350px; }
+      .hero__orb { width:310px; right:-55px; }
+      .poster { border-width:5px; }
+      .poster--one { width:135px; left:1%; }
+      .poster--two { width:140px; left:34%; }
+      .poster--three { width:125px; right:-4%; }
+      .hero__stamp { width:83px; right:5%; font-size:.52rem; }
+      .profile__lead { font-size:1.95rem; }
+      .metric-row { grid-template-columns:1fr; }
+      .metric,.metric + .metric { padding:15px 0; border-right:0; border-bottom:1px solid var(--line); }
+      .metric:last-child { border-bottom:0; }
+      .gallery { grid-template-columns:repeat(2,1fr); gap:22px 14px; }
+      .piece:nth-child(n) { grid-column:auto; margin-top:0; }
+      .piece:nth-child(2n) { margin-top:48px; }
+      .gallery-note { margin-top:45px; }
+      .plywood__image::before { top:-50px; left:-22px; font-size:9rem; }
+      .experience-item { grid-template-columns:1fr; gap:11px; }
+      .contact h2 { font-size:clamp(3.1rem,17vw,5.2rem); }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      html { scroll-behavior:auto; }
+      *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition-duration:.01ms !important; }
+      .js .reveal { opacity:1; transform:none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="shell nav">
+      <a class="nav__brand" href="#home" aria-label="Harsha Jain, back to home">Harsha Jain</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu</button>
+      <nav class="nav__links" id="navigation" aria-label="Main navigation">
+        <a href="#profile">Profile</a>
+        <a href="#work">Selected work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav__resume" href="assets/Harsha-Jain-Resume.pdf" download>Download CV</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="shell">
+        <div class="hero__copy-area">
+          <p class="hero__kicker reveal">Harsha Jain &middot; Portfolio 2026 &middot; Pune, India</p>
+          <h1 class="hero__title reveal">Social <span>signals.</span></h1>
+          <p class="hero__subtitle reveal">Social media marketing and content that gives a business a voice people want to follow.</p>
+          <p class="hero__copy reveal">From content calendars and branded creatives to founder-led LinkedIn posts, I turn business knowledge into clear, consistent social content.</p>
+          <div class="hero__links reveal">
+            <a class="button button--paper" href="#work">See selected work <span aria-hidden="true">&#8595;</span></a>
+            <a class="button button--outline" href="assets/Harsha-Jain-Resume.pdf" download>Download CV <span aria-hidden="true">&#8597;</span></a>
+          </div>
+        </div>
+        <div class="hero__art reveal" aria-label="A selection of Harsha Jain's social media creatives">
+          <div class="hero__orb" aria-hidden="true"></div>
+          <div class="poster poster--one"><img src="assets/WhatsApp%20Image%202026-07-17%20at%202.40.10%20PM.jpeg" alt="A selected branded social media creative"></div>
+          <div class="poster poster--two"><img src="assets/WhatsApp%20Image%202026-07-17%20at%202.40.41%20PM.jpeg" alt="A selected branded social media creative"></div>
+          <div class="poster poster--three"><img src="assets/WhatsApp%20Image%202026-07-17%20at%202.40.58%20PM.jpeg" alt="A selected branded social media creative"></div>
+          <div class="hero__stamp" aria-hidden="true">Plan<br>Make<br>Measure</div>
+        </div>
+        <p class="hero__credit">Social media marketing &middot; Content strategy &middot; Visual storytelling</p>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Services">
+      <div class="ticker__track">
+        <div class="ticker__group"><b>Content calendars</b><span>Reel concepts</span><b>LinkedIn ghostwriting</b><span>Canva creative</span><b>Hashtag research</b><span>Paid ads support</span><b>WordPress</b></div>
+        <div class="ticker__group" aria-hidden="true"><b>Content calendars</b><span>Reel concepts</span><b>LinkedIn ghostwriting</b><span>Canva creative</span><b>Hashtag research</b><span>Paid ads support</span><b>WordPress</b></div>
+      </div>
+    </div>
+
+    <section class="section profile" id="profile">
+      <div class="shell profile-grid">
+        <div>
+          <p class="eyebrow reveal">A little about me</p>
+          <p class="profile__lead reveal">I believe every good post starts before the design: with an audience, a purpose and a clear point of view.</p>
+          <p class="profile__body reveal">I am a Pune-based social media marketer building experience across Instagram, Facebook and LinkedIn. My work covers the full path from <strong>strategy and scripts</strong> to Canva creative, publishing and basic performance tracking. A B.Com background and CA Foundation qualification also help me make business and finance content feel more human.</p>
+        </div>
+        <div class="profile__fact-list reveal" aria-label="Portfolio highlights">
+          <div class="fact"><span class="fact__number">02</span><p class="fact__text"><b>Internships completed</b>Hands-on social media execution for consulting and education brands.</p></div>
+          <div class="fact"><span class="fact__number">03</span><p class="fact__text"><b>Platforms managed</b>Instagram, Facebook and LinkedIn.</p></div>
+          <div class="fact"><span class="fact__number">7.7K</span><p class="fact__text"><b>Top reel views</b>Achieved on a meme-led content format for a consulting account.</p></div>
+          <div class="fact"><span class="fact__number">01</span><p class="fact__text"><b>Website launched</b>Rohini Plywood's first WooCommerce website, built from zero.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow reveal">Selected work</p>
+          <div class="reveal"><h2>Posts with a job to do.</h2><p>Real content samples from internship work, presented as an editorial collection rather than a feed of anonymous thumbnails.</p></div>
+        </div>
+        <div class="work__intro">
+          <div class="reveal"><p class="project-label">Case study 01 &middot; Gauna's Management Consultants</p><h3>Make finance <span>feel human.</span></h3></div>
+          <div class="reveal"><p class="work__intro-text">Gauna's needed content that could make tax, audit, HR and compliance topics approachable. I helped plan the account's content calendar, write captions and hashtags, design awareness and festive posts, and script reels that connected business topics to the everyday situations people recognise.</p><div class="project-meta"><span>Instagram</span><span>LinkedIn</span><span>Reels</span><span>Founder voice</span><span>Canva</span></div><div class="metric-row"><div class="metric"><b>7.7K</b><span>top reel views</span></div><div class="metric"><b>6</b><span>portfolio reel formats</span></div><div class="metric"><b>133</b><span>account follower base</span></div></div></div>
+        </div>
+        <div class="gallery" aria-label="Selected social media creative gallery">
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.40.10%20PM.jpeg" alt="Selected social media creative, one"></div><figcaption>Content creative <span>01</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.40.41%20PM.jpeg" alt="Selected social media creative, two"></div><figcaption>Content creative <span>02</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.40.58%20PM.jpeg" alt="Selected social media creative, three"></div><figcaption>Content creative <span>03</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.42.04%20PM.jpeg" alt="Selected social media creative, four"></div><figcaption>Content creative <span>04</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.42.18%20PM.jpeg" alt="Selected social media creative, five"></div><figcaption>Content creative <span>05</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.43.13%20PM.jpeg" alt="Selected social media creative, six"></div><figcaption>Content creative <span>06</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.43.29%20PM.jpeg" alt="Selected social media creative, seven"></div><figcaption>Content creative <span>07</span></figcaption></figure>
+          <figure class="piece reveal"><div class="piece__frame"><img loading="lazy" src="assets/WhatsApp%20Image%202026-07-17%20at%202.43.43%20PM.jpeg" alt="Selected social media creative, eight"></div><figcaption>Content creative <span>08</span></figcaption></figure>
+        </div>
+        <p class="gallery-note reveal">The reel concepts and post formats above were created for real client-facing work. Add live post links later only where client permission permits sharing.</p>
+      </div>
+    </section>
+
+    <section class="section plywood">
+      <div class="shell">
+        <div class="plywood__image reveal"><img loading="lazy" src="assets/rohini-hero-plywood.png" alt="Rohini Plywood website product visual"></div>
+        <div>
+          <p class="eyebrow reveal">Case study 02 &middot; Rohini Plywood</p>
+          <h2 class="reveal">Presence from zero.</h2>
+          <p class="plywood__copy reveal">Rohini Plywood had products, but no online presence. I helped set up social profiles, designed promotional creatives and built the business's first website on WordPress and WooCommerce&mdash;from its first product view to its storefront experience.</p>
+          <div class="plywood__tools reveal"><span>WordPress</span><span>WooCommerce</span><span>Canva</span><span>Social setup</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow reveal">Experience</p><div class="reveal"><h2>Learned by doing.</h2><p>Two internships that moved from training into client-facing content systems.</p></div></div>
+        <div class="experience-list">
+          <article class="experience-item reveal"><p class="experience-date">May 2026 &ndash;<br>Jun 2026<br>Pune</p><div><h3>Digital Marketing Intern</h3><p class="experience-company">Gauna's Management Consultants Pvt. Ltd.</p></div><ul class="experience-details"><li>Planned and published Instagram and LinkedIn content</li><li>Ghostwrote founder-led LinkedIn posts</li><li>Designed creative assets and planned reel scripts</li></ul></article>
+          <article class="experience-item reveal"><p class="experience-date">Jul 2025 &ndash;<br>Sep 2025<br>Pune</p><div><h3>Digital Marketing Intern</h3><p class="experience-company">PIIDM &mdash; Pashium International Institute of Digital Marketing</p></div><ul class="experience-details"><li>Managed Instagram and Facebook content calendars</li><li>Created captions, creatives and reel concepts</li><li>Supported paid campaigns and engagement tracking</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section toolbox">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow reveal">Toolkit</p><div class="reveal"><h2>Strategy meets execution.</h2><p>Comfortable in the planning document, the creative canvas and the performance report.</p></div></div>
+        <div class="skills reveal">
+          <div><p class="skills-label">Skills</p><ul class="skill-list"><li>Social media strategy</li><li>Content creation</li><li>Instagram marketing</li><li>Facebook marketing</li><li>LinkedIn marketing</li><li>Paid ads support</li><li>Hashtag research</li><li>Audience targeting</li><li>Basic analytics</li><li>Content calendar management</li></ul></div>
+          <div><p class="skills-label">Tools</p><ul class="skill-list skill-list--tools"><li>Canva</li><li>Meta Ads Manager</li><li>WordPress</li><li>WooCommerce</li><li>SEMrush</li><li>Ahrefs</li><li>Google Search Console</li><li>Mailchimp</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="shell">
+        <div>
+          <p class="eyebrow reveal">Get in touch</p>
+          <h2 class="reveal">Let's make the next post matter.</h2>
+          <p class="contact__copy reveal">Open to social media marketing and content roles where thoughtful planning and a reliable execution rhythm make a difference.</p>
+          <div class="contact__actions reveal"><a class="button button--paper" href="mailto:harshajain2164@gmail.com">Email Harsha <span aria-hidden="true">&#8597;</span></a><a class="button button--outline" href="assets/Harsha-Jain-Resume.pdf" download>Download CV <span aria-hidden="true">&#8597;</span></a></div>
+        </div>
+        <address class="contact-card reveal"><p class="mono">Direct contact</p><a href="mailto:harshajain2164@gmail.com">harshajain2164@gmail.com</a><a href="tel:+917057401866">+91 70574 01866</a><a href="https://www.linkedin.com/in/harsha-jain-526260355" target="_blank" rel="noopener noreferrer">linkedin.com/in/harsha-jain-526260355 &#8597;</a><p>Pune, Maharashtra, India</p></address>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="shell footer"><span>Harsha Jain &middot; Social media marketing portfolio</span><span>&copy; <span id="year">2026</span> &middot; All selected work shown with care</span></div></footer>
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav__toggle');
+      var navigation = document.querySelector('.nav__links');
+      if (toggle && navigation) {
+        toggle.addEventListener('click', function () {
+          var isOpen = navigation.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', String(isOpen));
+          toggle.textContent = isOpen ? 'Close' : 'Menu';
+        });
+        navigation.addEventListener('click', function (event) {
+          if (event.target.tagName === 'A' && navigation.classList.contains('open')) { navigation.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); toggle.textContent = 'Menu'; }
+        });
+      }
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var items = document.querySelectorAll('.reveal');
+      if (reduce || !('IntersectionObserver' in window)) { items.forEach(function (item) { item.classList.add('visible'); }); }
+      else {
+        var reveal = new IntersectionObserver(function (entries) { entries.forEach(function (entry) { if (entry.isIntersecting) { entry.target.classList.add('visible'); reveal.unobserve(entry.target); } }); }, {threshold:.12,rootMargin:'0px 0px -45px 0px'});
+        items.forEach(function (item) { reveal.observe(item); });
+      }
+      var sections = document.querySelectorAll('main section[id]');
+      var links = document.querySelectorAll('.nav__links a');
+      if ('IntersectionObserver' in window) {
+        var active = new IntersectionObserver(function (entries) { entries.forEach(function (entry) { if (!entry.isIntersecting) return; links.forEach(function (link) { link.removeAttribute('aria-current'); }); var link = document.querySelector('.nav__links a[href="#' + entry.target.id + '"]'); if (link) link.setAttribute('aria-current','true'); }); }, {rootMargin:'-45% 0px -48% 0px'});
+        sections.forEach(function (section) { active.observe(section); });
+      }
+      document.getElementById('year').textContent = String(new Date().getFullYear());
+    }());
+  </script>
+</body>
+</html>

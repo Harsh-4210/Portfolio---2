@@ -1,0 +1,15 @@
+# Resume
+*resume*
+*Resume*
+*.pdf
+
+# Images
+images/
+assets/images/
+assets/img/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.webp
